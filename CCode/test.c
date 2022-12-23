@@ -15,5 +15,7 @@ int calTypeofData()
 int main()
 {
 	calTypeofData();
+	extern int global_val;
+	printf("%d\n", global_val);
 	return 0;
 }
